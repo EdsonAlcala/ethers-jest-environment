@@ -1,7 +1,7 @@
 {
   "name": "ethers-jest-environment",
   "description": "Ethers JS and Ganache ready to use with Jest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Edson Alcala",
   "bugs": {
     "url": "https://github.com/EdsonAlcala/ethers-jest-environment/issues"
