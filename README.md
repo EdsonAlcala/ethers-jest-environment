@@ -28,26 +28,36 @@ Add to your Jest config.
 You can specify options for the ganache instance by following the interface:
 
 ```
-export interface IOptions {
-    port?: number
-    mnemonic?: string
-    db_path?: string
-    gasLimit?: string | number
-    allowUnlimitedContractSize?: boolean
-    fork: string
-    network_id: number
-    accounts: [
-        {
-            secretKey: string
-            balance: string
-        },
-    ]
-    _chainId: number
-    _chainIdRpc: number
-    fork_block_number: number | string
-    unlocked_accounts: string[]
-    vmErrorsOnRPCResponse: boolean
-    gasPrice: string
+ export interface IProviderOptions {
+      account_keys_path?: string;
+      accounts?: object[];
+      allowUnlimitedContractSize?: boolean;
+      blockTime?: number;
+      db_path?: string;
+      debug?: boolean;
+      default_balance_ether?: number;
+      fork?: string | object;
+      fork_block_number?: string | number;
+      forkCacheSize?: number;
+      gasLimit?: string | number;
+      gasPrice?: string;
+      hardfork?: "byzantium" | "constantinople" | "petersburg" | "istanbul" | "muirGlacier";
+      hd_path?: string;
+      locked?: boolean;
+      logger?: {
+        log(msg: string): void;
+      };
+      mnemonic?: string;
+      network_id?: number;
+      networkId?: number;
+      port?: number;
+      seed?: any;
+      time?: Date;
+      total_accounts?: number;
+      unlocked_accounts?: string[];
+      verbose?: boolean;
+      vmErrorsOnRPCResponse?: boolean;
+      ws?: boolean;
 }
 ```
 
