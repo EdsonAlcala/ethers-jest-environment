@@ -1,4 +1,4 @@
-# jest-environment-ethers &middot; [![npm version](https://img.shields.io/npm/v/ethers-jest-environment.svg)](https://www.npmjs.com/package/ethers-jest-environment)
+# jest-environment-ethers &middot; [![npm version](https://img.shields.io/npm/v/jest-environment-ethers.svg)](https://www.npmjs.com/package/jest-environment-ethers)
 
 Jest environment with Ganache instance and EthersJS ready.
 
