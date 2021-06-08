@@ -24,6 +24,10 @@ export default class EthersJestEnvironment extends NodeEnvironment {
         allowUnlimitedContractSize: true,
         gasPrice: '0x2E90EDD000',
         unlocked_accounts: [],
+        network_id: 1,
+        networkId: 1,
+        fork: "",
+        accounts: []
       }
     })
 
