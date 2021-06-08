@@ -13,7 +13,6 @@ export default class EthersJestEnvironment extends NodeEnvironment {
     super(config)
 
     const options = config.testEnvironmentOptions as any
-
     validate(options, {
       exampleConfig: {
         fork_block_number: 12057129,
@@ -27,7 +26,9 @@ export default class EthersJestEnvironment extends NodeEnvironment {
         network_id: 1,
         networkId: 1,
         fork: "",
-        accounts: []
+        accounts: [],
+        _chainIdRpc: 1,
+        _chainId: 1
       }
     })
 
