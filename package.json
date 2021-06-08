@@ -1,10 +1,10 @@
 {
-  "name": "ethers-jest-environment",
+  "name": "jest-environment-ethers",
   "description": "Ethers JS and Ganache ready to use with Jest",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "author": "Edson Alcala",
   "bugs": {
-    "url": "https://github.com/EdsonAlcala/ethers-jest-environment/issues"
+    "url": "https://github.com/EdsonAlcala/jest-environment-ethers/issues"
   },
   "dependencies": {
     "ganache-core": "^2.13.2"
@@ -30,15 +30,15 @@
     "typescript": "^4.2.3"
   },
   "files": [
-    "dist/ethers-jest-environment.js",
+    "dist/jest-environment-ethers.js",
     "dist/index.js",
     "package.json",
     "README.md"
   ],
-  "homepage": "https://github.com/EdsonAlcala/ethers-jest-environment",
+  "homepage": "https://github.com/EdsonAlcala/jest-environment-ethers",
   "keywords": [
     "environment",
-    "etherjs",
+    "ethersjs",
     "ethereum",
     "jest"
   ],
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EdsonAlcala/ethers-jest-environment.git"
+    "url": "git+https://github.com/EdsonAlcala/jest-environment-ethers.git"
   },
   "scripts": {
     "build": "tsc",

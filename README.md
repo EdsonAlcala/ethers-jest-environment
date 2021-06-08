@@ -1,4 +1,4 @@
-# ethers-jest-environment &middot; [![npm version](https://img.shields.io/npm/v/ethers-jest-environment.svg)](https://www.npmjs.com/package/ethers-jest-environment)
+# jest-environment-ethers &middot; [![npm version](https://img.shields.io/npm/v/ethers-jest-environment.svg)](https://www.npmjs.com/package/ethers-jest-environment)
 
 Jest environment with Ganache instance and EthersJS ready.
 
@@ -7,14 +7,14 @@ Jest environment with Ganache instance and EthersJS ready.
 Install dependencies.
 
 ```shell
-yarn add ethers-jest-environment --dev
+yarn add jest-environment-ethers --dev
 ```
 
 Add to your Jest config.
 
 ```json
 {
-  "testEnvironment": "ethereum",
+  "testEnvironment": "ethers",
   "testEnvironmentOptions": {
       "port": "8545",
       "mnemonic": ""

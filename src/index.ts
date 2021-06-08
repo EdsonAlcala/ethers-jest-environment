@@ -1,3 +1,3 @@
-import EthersJestEnvironment from './ethers-jest-environment'
+import JestEnvironmentEthers from './jest-environment-ethers'
 
-module.exports = EthersJestEnvironment
+module.exports = JestEnvironmentEthers
